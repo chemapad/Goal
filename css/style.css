@@ -149,7 +149,7 @@ body {
 	letter-spacing: 1px;
 	margin-bottom: 80px;
 }
-.goal li:before{
+#li:before{
 content: "|";
 color: #273a71;
 padding-right: 10px;
