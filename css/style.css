@@ -33,6 +33,7 @@ body {
     background: #121212;
     padding: 10px;
     margin-bottom: 0;
+    border-radius: 0;
 }
 .navbar-brand {
 	padding-left: 100px;
@@ -51,6 +52,7 @@ body {
 
 #inicio {
 	margin: 0;
+	padding: 0;
 }
 
 #inicio div {
@@ -70,67 +72,11 @@ body {
 	padding-top: 25%;
 	padding-bottom: 5%;
 }
-.container-fluid.personal {
-	padding-bottom: 5%;
-}
-.personal {
-  background-color: #333333;
-  background-image: url("../img/equipo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.personal h2{
-	color: #eeeeee;
-	font-size: 45px;
-}
-.personal h3 {
-	font-family: "Atami-Light";
-	color: #eeeeee;
-	font-size: 12px;
-	margin: 0;
-	padding:0;
-	letter-spacing: 1px;
-	
-}
-.personal img {
-	margin-top: 5%;
-}
-
-.personal p {
-	color: #ff9a02;
-	font-family: "Atami-Light";
-	margin-right: 38%;
-	margin-left: 38%;
-	text-align: justify;
-	letter-spacing: 0.2px;
-}
-
-.contacto{
-	background: #666666;
-	margin: 0;
-	padding: 25px;
-	color: #333333;
-}
-#contacto label {
-	font-size: 18px;
-}
-#contacto h2 {
-
-	color: #273a72;
-}
-.form-control {
-	background-color: #5d5d5d;
-	border: 1px solid #5d5d5d;
-	border-radius: 20px;
-	color: #d0d0d0;
-}
-
-.container-fluid{
-	padding:0;
-}
 .goal {
 	background-color: #eeeeee;
+	
+
 }
 
 .goal img {
@@ -181,6 +127,87 @@ padding-right: 10px;
 	margin-bottom: 50px;
 }
 
+.servicios {
+	background-color: #273a71;
+	color: #eeeeee;
+}
+.servicios img {
+	padding-top: 1%;
+}
+.servicios h1 {
+	margin-top: 1%;
+	padding-top: 0;
+	font-family: 'Atami-Regular';
+}
+.servicios p {
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'Rounded_Elegance';
+	padding: 5%;
+	padding-top: 2%;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-bottom: 5%
+}
+
+.container-fluid.personal {
+	padding-bottom: 5%;
+}
+
+
+.personal {
+  background-color: #333333;
+ 
+}
+
+.personal h2{
+	color: #eeeeee;
+	font-size: 45px;
+}
+.personal h3 {
+	font-family: "Atami-Light";
+	color: #eeeeee;
+	font-size: 12px;
+	margin: 0;
+	padding:0;
+	letter-spacing: 1px;
+	
+}
+.personal img {
+	margin-top: 5%;
+}
+
+.personal p {
+	color: #ff9a02;
+	font-family: "Atami-Light";
+	margin-right: 38%;
+	margin-left: 38%;
+	text-align: justify;
+	letter-spacing: 0.2px;
+}
+
+.contacto{
+	background: #666666;
+	margin: 0;
+	padding: 25px;
+	color: #333333;
+}
+#contacto label {
+	font-size: 18px;
+}
+#contacto h2 {
+
+	color: #273a72;
+}
+
+.form-control {
+	background-color: #5d5d5d;
+	border: 1px solid #5d5d5d;
+	border-radius: 20px;
+	color: #d0d0d0;
+}
+
+
 hr {
 width: 360px;
 height: 3px;
@@ -193,3 +220,4 @@ border: none;
 	padding-top: 15%;
 	padding-bottom: 15%;
 }
+
